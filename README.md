@@ -18,19 +18,19 @@ A Gaussian filter is a linear filter. It's usually used to blur the image or to 
 
 We can see the difference between the original ground-truth image and the images after applying box, gaussian and median filters. Image gets blurred because the values are shifted towards the median. Thus, reducing variance of intensities.
 
-### Comparison: 
+## Comparison: 
 
-## Low Noise:
+### Low Noise:
 Sigma = 12
 
 ![low-noise-comparison](https://github.com/gandalf1819/Image-denoising/blob/master/images/low-noise.png)
 
-## Medium Noise:
+### Medium Noise:
 Sigma = 22
 
 ![medium-noise-comparison](https://github.com/gandalf1819/Image-denoising/blob/master/images/medium-noise.png)
 
-## High Noise:
+### High Noise:
 Sigma = 32
 
 ![high-noise-comparison](https://github.com/gandalf1819/Image-denoising/blob/master/images/high-noise.png)
